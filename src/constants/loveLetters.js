@@ -1,0 +1,42 @@
+export const letters = [
+  {
+    id: 1,
+    title: 'Cuando estés triste',
+    preview: 'Para abrazarte con palabras',
+    image: '/images/snoopy/cry.jpg',
+    seal: '#e11d48',
+    message: 'En los días grises quiero que recuerdes esto: no estás sola. Tu tristeza no define quién eres, y yo estaré aquí hasta que vuelva a salir el sol en tu corazón.',
+  },
+  {
+    id: 2,
+    title: 'Cuando me extrañes',
+    preview: 'Aunque estemos lejos',
+    image: '/images/snoopy/extra.jpg',
+    seal: '#be123c',
+    message: 'La distancia no apaga lo que siento. Te pienso en los detalles pequeños, en las canciones, en el silencio. Donde sea que estés, llevo un pedazo de ti conmigo.',
+  },
+  {
+    id: 3,
+    title: 'Cuando quieras sonreír',
+    preview: 'Para recordar la risa',
+    image: '/images/snoopy/smile.jpg',
+    seal: '#db2777',
+    message: '<a href="https://www.tiktok.com/@dedicadaalamordemivida/video/7601748062821731604?is_from_webapp=1&sender_device=pc&web_id=7623250642592859656" target="_blank" rel="noopener noreferrer">Ver video de TikTok</a>',
+  },
+  {
+    id: 4,
+    title: 'Cuando necesites fuerza',
+    preview: 'Porque puedes con todo',
+    image: '/images/snoopy/cansa.jpg',
+    seal: '#9f1239',
+    message: 'Eres más fuerte de lo que crees. No importa cuán difícil parezca el camino, no estás sola, siempre voy a estar para apoyarte y recordarte de lo que eres capaz, confío en ti incluso cuando tú misma dudes, porque he visto tu fuerza y tu determinación',
+  },
+  {
+    id: 5,
+    title: 'Cuando dudes de ti',
+    preview: 'Lo que yo veo en ti',
+    image: '/images/snoopy/dua.jpg',
+    seal: '#f43f5e',
+    message: 'Si pudieras verme a través de mis ojos, verías a alguien valiosa, brillante, única y la mujer más hermosa del mundo. Te admiro más de lo que te lo digo.',
+  },
+];
