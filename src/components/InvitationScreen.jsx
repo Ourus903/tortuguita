@@ -160,7 +160,7 @@ export default function InvitationScreen({ isVisible, onClose }) {
                         Fecha
                       </p>
                       <p className="font-semibold text-slate-800 dark:text-white">
-                        Sábado 14
+                        Este sábado
                       </p>
                     </div>
                   </div>
@@ -176,7 +176,7 @@ export default function InvitationScreen({ isVisible, onClose }) {
                         Hora
                       </p>
                       <p className="font-semibold text-slate-800 dark:text-white">
-                        7:00 PM
+                        5:30 PM
                       </p>
                     </div>
                   </div>
@@ -192,7 +192,7 @@ export default function InvitationScreen({ isVisible, onClose }) {
                         Lugar
                       </p>
                       <p className="font-semibold text-slate-800 dark:text-white">
-                        Por confirmar
+                        Miraflores centro comercial
                       </p>
                     </div>
                   </div>
