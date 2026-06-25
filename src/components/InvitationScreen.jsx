@@ -126,6 +126,7 @@ export default function InvitationScreen({ isVisible, onClose }) {
               >
                 Me haría muy feliz compartir una tarde especial contigo,
                 conversar, reír juntos y crear un hermoso recuerdo. 
+                
               </motion.p>
 
               {/* Information Card */}
@@ -160,7 +161,7 @@ export default function InvitationScreen({ isVisible, onClose }) {
                         Fecha
                       </p>
                       <p className="font-semibold text-slate-800 dark:text-white">
-                        Este sábado
+                        5 de julio
                       </p>
                     </div>
                   </div>
@@ -176,7 +177,7 @@ export default function InvitationScreen({ isVisible, onClose }) {
                         Hora
                       </p>
                       <p className="font-semibold text-slate-800 dark:text-white">
-                        5:30 PM
+                        5:00 PM
                       </p>
                     </div>
                   </div>
@@ -200,61 +201,6 @@ export default function InvitationScreen({ isVisible, onClose }) {
                 </div>
               </motion.div>
 
-              {/* Buttons */}
-              <motion.div
-                initial={{ y: 15, opacity: 0 }}
-                animate={{ y: 0, opacity: 1 }}
-                transition={{ delay: 0.55 }}
-                className="flex flex-col sm:flex-row gap-6 w-full mt-2"
-              >
-                <motion.button
-                  whileHover={{ scale: 1.03, y: -2 }}
-                  whileTap={{ scale: 0.97 }}
-                  onClick={onClose}
-                  className="
-                    flex-1
-                    px-10
-                    py-5
-                    rounded-full
-                    font-semibold
-                    text-white
-                    bg-gradient-to-r
-                    from-rose-500
-                    via-pink-500
-                    to-purple-600
-                    shadow-[0_10px_30px_rgba(236,72,153,0.35)]
-                    hover:shadow-[0_15px_40px_rgba(236,72,153,0.45)]
-                    transition-all
-                  "
-                >
-                  Sí, me encantaría
-                </motion.button>
-
-                <motion.button
-                  whileHover={{ scale: 1.03, y: -2 }}
-                  whileTap={{ scale: 0.97 }}
-                  onClick={onClose}
-                  className="
-                    flex-1
-                    px-10
-                    py-5
-                    rounded-full
-                    font-semibold
-                    bg-white/70
-                    dark:bg-slate-700/70
-                    text-slate-700
-                    dark:text-slate-200
-                    border
-                    border-white/50
-                    dark:border-white/10
-                    shadow-lg
-                    backdrop-blur-lg
-                    transition-all
-                  "
-                >
-                  Dame un momento
-                </motion.button>
-              </motion.div>
             </div>
           </motion.div>
         </motion.div>
