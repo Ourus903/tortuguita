@@ -193,7 +193,7 @@ export default function InvitationScreen({ isVisible, onClose }) {
                         Lugar
                       </p>
                       <p className="font-semibold text-slate-800 dark:text-white">
-                        Miraflores centro comercial
+                        Videre C.C
                       </p>
                     </div>
                   </div>

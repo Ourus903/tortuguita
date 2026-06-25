@@ -397,24 +397,6 @@ function App() {
           </p>
 
           {/* Frase */}
-          <div
-            className="
-              italic
-              text-sm
-              md:text-base
-              text-slate-900
-              dark:text-white/80
-              bg-white/20
-              py-3
-              px-8
-              rounded-full
-              border
-              border-white/30
-            "
-          >
-            Quien diría que un día tan bonito llegaría.
-          </div>
-
           {/* Botón */}
           <motion.button
             type="button"
