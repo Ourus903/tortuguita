@@ -41,7 +41,7 @@ const items = [
   {
     icon: Compass,
     title: 'Fuerza',
-    text: 'Valoro tu fortaleza cuando enfrentas los desafíos.',
+    text: 'Tu manera de enfrentar cualquier problema es lo que más admiro.',
     tilt: 'tilt-3',
     offset: 'sm:mt-4',
   },
