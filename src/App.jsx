@@ -188,7 +188,7 @@ function App() {
 
   useEffect(() => {
     if (audioRef.current) {
-      audioRef.current.volume = 0.07;
+      audioRef.current.volume = 0.04;
     }
   }, []);
 
